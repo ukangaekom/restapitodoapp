@@ -1,0 +1,23 @@
+{
+  "name": "restapitodoapp",
+  "version": "1.0.0",
+  "description": "A restapi for a fullstack todoapp",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "nodemon app.js"
+  },
+  "author": "Ekomabasi Martin Ukanga",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.1",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1"
+  }
+}
